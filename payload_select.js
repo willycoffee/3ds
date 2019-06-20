@@ -209,6 +209,10 @@ function getMenuVersion(v)
                 {
                     return "27649";
                 }
+            }else if (v[1]==10 && v[4]=="E")
+                {
+                    return "29696_eur";
+                }
             }else{
                 if (v[4]=="U")
                 {
@@ -295,6 +299,7 @@ window.onload=function(){
         '40' : regions,
         '41' : regions,
         '42' : regions,
+        '43' : regions,
         '137' : regions,
         '999' : regions
     }
@@ -336,7 +341,8 @@ window.onload=function(){
             '6': zeroMicro_1,
             '7': zeroMicro_1,
             '8': zeroMicro_1,
-            '9': zeroMicro_1
+            '9': zeroMicro_1,
+            '10': zeroMicro_1
         }
     }
 
