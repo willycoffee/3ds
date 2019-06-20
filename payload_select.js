@@ -209,10 +209,8 @@ function getMenuVersion(v)
                 {
                     return "27649";
                 }
-            }else if (v[1]==10 && v[4]=="E")
-                {
-                    return "29696_eur";
-                }
+            }else if (v[1]==10 && v[4]=="E"){
+                return "29696_eur";
             }else{
                 if (v[4]=="U")
                 {
