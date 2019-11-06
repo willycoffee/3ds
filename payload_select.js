@@ -298,6 +298,7 @@ window.onload=function(){
         '41' : regions,
         '42' : regions,
         '43' : regions,
+        '44' : regions,
         '137' : regions,
         '999' : regions
     }
@@ -341,7 +342,8 @@ window.onload=function(){
             '8': zeroMicro_1,
             '9': zeroMicro_1,
             '10': zeroMicro_1,
-            '11': zeroMicro_1
+            '11': zeroMicro_1,
+            '12': zeroMicro_1
         }
     }
 
